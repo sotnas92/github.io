@@ -10,11 +10,12 @@
 
   <title>Explorateur Bitcoin</title>
 
-  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css"> 
+  <link rel="stylesheet" type="text/css" href="style/homepage.css">
+  <link rel="stylesheet" type="text/css" href="style/font-awesome/css/font-awesome.min.css"> 
 </head>
 <body>
-  <h1>Explorateur Bitcoin</h1>
-  <nav class="navbar navbar-default">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -24,17 +25,65 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Page d'accueil</a>
+        <a class="navbar-brand" href="#">Page d'accueil</a><span class="sr-only">(current)</span>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="bitcoin/index.html">Explorateur bitcoin<span class="sr-only">(current)</span></a></li>
+          <li><a href="bitcoin/index.html">Explorateur bitcoin</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          <a href="bitcoin/index.html">
+            <div class="panel">
+              <div class="panel-heading">
+               <img id="img_panel_explorateur" src="style/images/panel_explorateur.png">
+              </div>
+              <div class="panel-footer">
+                <h3>
+                  <span>Explorateur Bitcoin</span>
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          <div class="panel">
+            <div class="panel-heading">
+              <img id="img_panel_ico" src="style/images/panel_ico.jpg">
+            </div>
+            <div class="panel-footer">
+              <h3>
+                <span>ICO</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3>
+                <span id="percent_variation"></span>% 
+                (<span id="price_variation"></span>€) <i class="fleche"></i>
+              </h3>
+            </div>
+            <div class="panel-footer">
+              <h3>
+                <span>Coin</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
 
