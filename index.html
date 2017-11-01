@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="style/font-awesome/css/font-awesome.min.css"> 
 </head>
 <body>
-
+  <?php /*
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,9 +33,15 @@
         <ul class="nav navbar-nav">
           <li><a href="bitcoin/index.html">Explorateur bitcoin</a></li>
         </ul>
+        <ul class="nav navbar-nav">
+          <li><a href="ico/index.html">ICO</a></li>
+        </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+  */ 
+  include_once('navbar/homepage.php');
+  ?>
 
   <section>
     <div class="container-fluid">
@@ -45,16 +51,17 @@
             <div class="panel">
               <div class="panel-heading">
                <img id="img_panel_explorateur" src="style/images/panel_explorateur.png">
-              </div>
-              <div class="panel-footer">
-                <h3>
-                  <span>Explorateur Bitcoin</span>
-                </h3>
-              </div>
+             </div>
+             <div class="panel-footer">
+              <h3>
+                <span>Explorateur Bitcoin</span>
+              </h3>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <a href="ico/index.html">
           <div class="panel">
             <div class="panel-heading">
               <img id="img_panel_ico" src="style/images/panel_ico.jpg">
@@ -65,8 +72,10 @@
               </h3>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <a href="#">
           <div class="panel">
             <div class="panel-heading">
               <h3>
@@ -80,10 +89,11 @@
               </h3>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 </body>
 </html>
 
