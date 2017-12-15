@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="style/font-awesome/css/font-awesome.min.css"> 
 </head>
 <body>
-  <?php /*
+
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,15 +39,12 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  */ 
-  include_once('navbar/homepage.php');
-  ?>
 
   <section>
     <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-          <a href="bitcoin/index.html">
+        <div class="col-md-4 col-sm-12 text-center">
+          <a href="bitcoin/index.php">
             <div class="panel">
               <div class="panel-heading">
                <img id="img_panel_explorateur" src="style/images/panel_explorateur.png">
@@ -60,7 +57,7 @@
           </div>
         </a>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+      <div class=" col-md-4 col-sm-12 text-center">
         <a href="ico/index.html">
           <div class="panel">
             <div class="panel-heading">
@@ -74,18 +71,15 @@
           </div>
         </a>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <a href="#">
+      <div class="col-md-4 col-sm-12 text-center">
+        <a href="blockizor/index.php">
           <div class="panel">
             <div class="panel-heading">
-              <h3>
-                <span id="percent_variation"></span>% 
-                (<span id="price_variation"></span>€) <i class="fleche"></i>
-              </h3>
+              <img id="img_panel_ico" src="style/images/panel_ico.jpg">
             </div>
             <div class="panel-footer">
               <h3>
-                <span>Coin</span>
+                <span>Blockizor</span>
               </h3>
             </div>
           </div>
