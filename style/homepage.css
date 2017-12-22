@@ -8,9 +8,17 @@ body {
 
 #img_panel_explorateur {
 	width: 100%;
-	vertical-align:middle;
+	vertical-align: middle;
 }
 #img_panel_ico {
+	width: 100%;
+	vertical-align: middle;
+}
+#img_panel_blockizor {
+	width: 100%;
+	vertical-align: middle;
+}
+#img_panel_token {
 	width: 100%;
 	vertical-align: middle;
 }
