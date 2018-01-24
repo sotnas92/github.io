@@ -79,7 +79,7 @@ $.ajax({
 						var delta_time=Date.now()-parseInt(data_hash.time)*1000;
 						
 						$('#block_list').append(	'<tr class="block_summary" id="'+block_index+'">'
-														+'<td><a href="https://mubiz.com/bitcoin/block/'+block_index+'/">'+number_format(block_index,0,'.',' ')+'</a></td>'
+														+'<td>'+number_format(block_index,0,'.',' ')+'</td>'
 														+'<td>'+data_index.block_hash+'</td>'
 														+'<td>'+unixtime_to_date(data_hash.time)+'<br/>( Il y a '+unixtime_to_delay(delta_time)+')</td>'
 														+'<td>'+number_format((data_hash.size/1024),2,'.',' ')+' Ko</td>'
